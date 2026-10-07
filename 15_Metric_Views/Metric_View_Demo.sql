@@ -533,7 +533,7 @@ measures:
     expr: count(distinct o_custkey)
     window: 
      - order: order_date
-       semiadditive: last
+       semiadditive: last ## first or last 
        range: current
     display_name: Customers Last 7 Days
 
